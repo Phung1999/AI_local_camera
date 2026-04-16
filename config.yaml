@@ -1,0 +1,23 @@
+camera:
+  source: 0
+  width: 640
+  height: 480
+
+detection:
+  classes:
+    - person
+    - car
+    - motorbike
+    - dog
+    - cat
+  motion_threshold: 500
+
+telegram:
+  token: "YOUR_TOKEN"
+  chat_id: "YOUR_CHAT_ID"
+  cooldown_intrusion: 20
+  cooldown_fire: 10
+
+storage:
+  alerts_file: "data/alerts.json"
+  images_folder: "data/captures"
